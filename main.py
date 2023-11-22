@@ -27,7 +27,7 @@ def find_sub(code):
     print(colNum)
 
     driver = webdriver.Chrome()
-    driver.get("https://sis.vce.ac.in/BE_Results_367_Sem_27-03-2021/")
+    driver.get("https://pec.edu.in/user")
     searchBox = driver.find_element_by_xpath('//*[@id="txtHTNO"]')    # //*[@id="lblCGPA"]
     searchButton = driver.find_element_by_xpath('//*[@id="btnResults"]')
     roll = Sheet.cell(row=2, column=colNum).value
